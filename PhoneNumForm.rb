@@ -1,8 +1,25 @@
 require 'pry'
 
+# Class: PhoneNumForm
+#
+# formats a phone number.
+#
+# Attributes:
+# @phone_number - Integer: a phone number
+#
+# Methods
+# Public #change_phone_number_format
+# formats a phone number to make readable
+#
+# Parameters:
+# phone_number - the phone number
+#
+# State Changes:
+# changes number to look like this (xxx) xxx-xxxx
+
+
 class PhoneNumForm
 
-  
   def initialize
     @phone_number = 1234567890
   end

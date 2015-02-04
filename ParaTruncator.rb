@@ -1,4 +1,13 @@
 require 'pry'
+# Class: ParaTruncator
+#
+# This will truncate our text after 45 characters.
+#
+# Attributes:
+# @ text - String: The text that will trunckated.
+#
+# Public Methods:
+# # truncate_text
 
 class ParaTruncator
 
